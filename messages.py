@@ -99,5 +99,6 @@ class Messages:
 
 
 if __name__ == '__main__':
-    test = Messages('1.8mkNccRiWydOq92jcaV7bo-KyswL1re0NrIPid-fPLk=','emanuele.marenco@gmail.com',None)
+
+    test = Messages(apikey,mail,None)
     test.makejsonpost('Hallo wolrd!')
